@@ -23,7 +23,7 @@ Interested in web development, clean code, and solving problems end-to-end.
 
 ### 🌐 Connect with me
 
-<a href="https://www.linkedin.com/in/juan-valencia-0a394b3bb/" target="_blank">
+<a href="www.linkedin.com/in/juan-valencia-0a394b3bb/" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 &nbsp;
