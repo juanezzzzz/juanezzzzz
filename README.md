@@ -80,25 +80,25 @@ Interested in web development, clean code, and solving problems end-to-end.
 
 ---
 
-<!-- ============ GITHUB STATS (endpoints oficiales) ============ -->
+<!-- ============ GITHUB STATS (tu propia instancia) ============ -->
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"> GitHub Stats
 
 <div align="center">
 
 <img
   height="165"
-  src="https://github-readme-stats.vercel.app/api?username=juanezzzzz&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&cache_seconds=1800"
+  src="https://github-readme-stats-weh4.vercel.app/api?username=juanezzzzz&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&cache_seconds=1800"
   alt="Juan's GitHub Stats"
 />
 <img
   height="165"
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=juanezzzzz&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&cache_seconds=1800"
+  src="https://github-readme-stats-weh4.vercel.app/api/top-langs/?username=juanezzzzz&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&cache_seconds=1800"
   alt="Top Languages"
 />
 
 </div>
 
-<!-- ============ ACTIVITY GRAPH (reemplaza al Streak) ============ -->
+<!-- ============ ACTIVITY GRAPH ============ -->
 <div align="center">
 
 <img
@@ -109,17 +109,7 @@ Interested in web development, clean code, and solving problems end-to-end.
 
 </div>
 
-<!-- ============ TROPHIES ============ -->
-<div align="center">
-
-<img
-  src="https://github-profile-trophy.vercel.app/?username=juanezzzzz&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7"
-  alt="Trophies"
-/>
-
-</div>
-
-<!-- ============ SNAKE (requiere el GitHub Action, ver más abajo) ============ -->
+<!-- ============ SNAKE (requiere el GitHub Action; ver nota abajo) ============ -->
 <div align="center">
 
 <picture>
@@ -127,28 +117,6 @@ Interested in web development, clean code, and solving problems end-to-end.
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/juanezzzzz/juanezzzzz/output/github-contribution-grid-snake.svg" />
   <img alt="snake animation" src="https://raw.githubusercontent.com/juanezzzzz/juanezzzzz/output/github-contribution-grid-snake.svg" />
 </picture>
-
-</div>
-
----
-
-<!-- ============ FEATURED PROJECTS ============ -->
-## 🚀 Featured Projects
-
-<div align="center">
-
-<a href="https://github.com/juanezzzzz/REPO-1">
-  <img
-    src="https://github-readme-stats.vercel.app/api/pin/?username=juanezzzzz&repo=REPO-1&theme=tokyonight&hide_border=true&bg_color=0D1117"
-    alt="Project 1"
-  />
-</a>
-<a href="https://github.com/juanezzzzz/REPO-2">
-  <img
-    src="https://github-readme-stats.vercel.app/api/pin/?username=juanezzzzz&repo=REPO-2&theme=tokyonight&hide_border=true&bg_color=0D1117"
-    alt="Project 2"
-  />
-</a>
 
 </div>
 
