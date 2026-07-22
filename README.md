@@ -80,6 +80,31 @@ Interested in web development, clean code, and solving problems end-to-end.
 
 ---
 
+<!-- ============ FEATURED PROJECTS ============ -->
+## 🚀 Proyectos destacados
+
+<div align="center">
+
+<a href="https://github.com/juanezzzzz/zona-segura-sst">
+  <img src="https://github-readme-stats-weh4.vercel.app/api/pin/?username=juanezzzzz&repo=zona-segura-sst&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Zona Segura" />
+</a>
+<a href="https://github.com/juanezzzzz/Tienda_CRUD">
+  <img src="https://github-readme-stats-weh4.vercel.app/api/pin/?username=juanezzzzz&repo=Tienda_CRUD&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Tienda API" />
+</a>
+<a href="https://github.com/juanezzzzz/Suscripciones_CRUD">
+  <img src="https://github-readme-stats-weh4.vercel.app/api/pin/?username=juanezzzzz&repo=Suscripciones_CRUD&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Suscripciones API" />
+</a>
+
+</div>
+
+<div align="center">
+
+🎮 <b>Zona Segura</b> — <a href="https://juanezzzzz.github.io/zona-segura-sst/">demo jugable en vivo</a> &nbsp;·&nbsp; 🧩 <b>Tienda</b> y <b>Suscripciones</b> — microservicios REST en <b>Go + PostgreSQL</b> de la plataforma <b>Jobsy</b>
+
+</div>
+
+---
+
 <!-- ============ GITHUB STATS (tu propia instancia) ============ -->
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"> GitHub Stats
 
