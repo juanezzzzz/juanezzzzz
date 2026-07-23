@@ -97,12 +97,15 @@ Interested in web development, clean code, and solving problems end-to-end.
 <a href="https://github.com/juanezzzzz/Suscripciones_CRUD">
   <img src="https://github-readme-stats-weh4.vercel.app/api/pin/?username=juanezzzzz&repo=Suscripciones_CRUD&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Suscripciones API" />
 </a>
+<a href="https://github.com/juanezzzzz/Gestion_Recursos_Humanos_API_DJango">
+  <img src="https://github-readme-stats-weh4.vercel.app/api/pin/?username=juanezzzzz&repo=Gestion_Recursos_Humanos_API_DJango&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="RRHH API" />
+</a>
 
 </div>
 
 <div align="center">
 
-🎮 <b>Zona Segura</b> — <a href="https://juanezzzzz.github.io/zona-segura-sst/">demo jugable en vivo</a> &nbsp;·&nbsp; 🛍️ <b>Dulce Encanto</b> — e-commerce con React + Vite &nbsp;·&nbsp; 🧩 <b>Tienda</b> y <b>Suscripciones</b> — microservicios REST en <b>Go + PostgreSQL</b> (plataforma <b>Jobsy</b>)
+🎮 <b>Zona Segura</b> — <a href="https://juanezzzzz.github.io/zona-segura-sst/">demo jugable en vivo</a> &nbsp;·&nbsp; 🛍️ <b>Dulce Encanto</b> — e-commerce con React + Vite &nbsp;·&nbsp; 🧩 <b>Tienda</b>, <b>Suscripciones</b> y <b>RRHH</b> — microservicios de la plataforma <b>Jobsy</b> (<b>Go · Django · PostgreSQL</b>)
 
 </div>
 
