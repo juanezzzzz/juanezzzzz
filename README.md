@@ -100,12 +100,17 @@ Interested in web development, clean code, and solving problems end-to-end.
 <a href="https://github.com/juanezzzzz/Gestion_Recursos_Humanos_API_DJango">
   <img src="https://github-readme-stats-weh4.vercel.app/api/pin/?username=juanezzzzz&repo=Gestion_Recursos_Humanos_API_DJango&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="RRHH API" />
 </a>
+<a href="https://github.com/juanezzzzz/api_red_social">
+  <img src="https://github-readme-stats-weh4.vercel.app/api/pin/?username=juanezzzzz&repo=api_red_social&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="API Red Social" />
+</a>
 
 </div>
 
 <div align="center">
 
-🎮 <b>Zona Segura</b> — <a href="https://juanezzzzz.github.io/zona-segura-sst/">demo jugable en vivo</a> &nbsp;·&nbsp; 🛍️ <b>Dulce Encanto</b> — e-commerce con React + Vite &nbsp;·&nbsp; 🧩 <b>Tienda</b>, <b>Suscripciones</b> y <b>RRHH</b> — microservicios de la plataforma <b>Jobsy</b> (<b>Go · Django · PostgreSQL</b>)
+🎮 <b>Zona Segura</b> — <a href="https://juanezzzzz.github.io/zona-segura-sst/">demo jugable en vivo</a> &nbsp;·&nbsp; 🛍️ <b>Dulce Encanto</b> — e-commerce con React + Vite
+<br/><br/>
+🧩 <b>APIs backend:</b> <b>Tienda</b> y <b>Suscripciones</b> (Go), <b>RRHH</b> (Django) y <b>Red Social</b> (NestJS) &nbsp;·&nbsp; <b>Go · TypeScript · Python · PostgreSQL · MongoDB</b>
 
 </div>
 
