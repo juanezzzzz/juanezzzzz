@@ -88,6 +88,9 @@ Interested in web development, clean code, and solving problems end-to-end.
 <a href="https://github.com/juanezzzzz/zona-segura-sst">
   <img src="https://github-readme-stats-weh4.vercel.app/api/pin/?username=juanezzzzz&repo=zona-segura-sst&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Zona Segura" />
 </a>
+<a href="https://github.com/juanezzzzz/boutique-pagina-web">
+  <img src="https://github-readme-stats-weh4.vercel.app/api/pin/?username=juanezzzzz&repo=boutique-pagina-web&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Dulce Encanto" />
+</a>
 <a href="https://github.com/juanezzzzz/Tienda_CRUD">
   <img src="https://github-readme-stats-weh4.vercel.app/api/pin/?username=juanezzzzz&repo=Tienda_CRUD&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Tienda API" />
 </a>
@@ -99,7 +102,7 @@ Interested in web development, clean code, and solving problems end-to-end.
 
 <div align="center">
 
-🎮 <b>Zona Segura</b> — <a href="https://juanezzzzz.github.io/zona-segura-sst/">demo jugable en vivo</a> &nbsp;·&nbsp; 🧩 <b>Tienda</b> y <b>Suscripciones</b> — microservicios REST en <b>Go + PostgreSQL</b> de la plataforma <b>Jobsy</b>
+🎮 <b>Zona Segura</b> — <a href="https://juanezzzzz.github.io/zona-segura-sst/">demo jugable en vivo</a> &nbsp;·&nbsp; 🛍️ <b>Dulce Encanto</b> — e-commerce con React + Vite &nbsp;·&nbsp; 🧩 <b>Tienda</b> y <b>Suscripciones</b> — microservicios REST en <b>Go + PostgreSQL</b> (plataforma <b>Jobsy</b>)
 
 </div>
 
