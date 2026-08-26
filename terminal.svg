@@ -1,145 +1,132 @@
 <svg width="700" height="320" viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <style>
-      .bg { fill: #0d1117; }
-      .bar { fill: #161b22; }
-      .border { fill: none; stroke: #30363d; stroke-width: 1; }
-      .dot-r { fill: #ff5f57; }
-      .dot-y { fill: #febc2e; }
-      .dot-g { fill: #28c840; }
-      .bar-title { fill: #8b949e; font-family: 'Courier New', monospace; font-size: 12px; }
-      .prompt { fill: #28c840; font-family: 'Courier New', monospace; font-size: 13px; font-weight: bold; }
-      .cmd { fill: #e6edf3; font-family: 'Courier New', monospace; font-size: 13px; }
-      .key { fill: #79c0ff; font-family: 'Courier New', monospace; font-size: 13px; }
-      .str { fill: #a8ff78; font-family: 'Courier New', monospace; font-size: 13px; }
-      .bracket { fill: #e6edf3; font-family: 'Courier New', monospace; font-size: 13px; }
-      .cursor { fill: #28c840; }
-      @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
-      .blink { animation: blink 1s step-end infinite; }
-      @keyframes fadein { from{opacity:0} to{opacity:1} }
-      .l0  { animation: fadein 0.1s 0.2s both; }
-      .l1  { animation: fadein 0.1s 0.5s both; }
-      .l2  { animation: fadein 0.1s 0.8s both; }
-      .l3  { animation: fadein 0.1s 1.0s both; }
-      .l4  { animation: fadein 0.1s 1.2s both; }
-      .l5  { animation: fadein 0.1s 1.4s both; }
-      .l6  { animation: fadein 0.1s 1.6s both; }
-      .l7  { animation: fadein 0.1s 1.8s both; }
-      .l8  { animation: fadein 0.1s 2.0s both; }
-      .l9  { animation: fadein 0.1s 2.2s both; }
-      .l10 { animation: fadein 0.1s 2.4s both; }
-      .l11 { animation: fadein 0.1s 2.6s both; }
-      .l12 { animation: fadein 0.1s 2.8s both; }
-      .l13 { animation: fadein 0.1s 3.0s both; }
-    </style>
-  </defs>
+    <defs>
+          <style>
+                  .bg { fill: #0d1117; }
+                  .bar { fill: #161b22; }
+                  .border { fill: none; stroke: #30363d; stroke-width: 1; }
+                  .dot-r { fill: #ff5f57; }
+                  .dot-y { fill: #febc2e; }
+                  .dot-g { fill: #28c840; }
+                  .bar-title { fill: #8b949e; font-family: 'Courier New', monospace; font-size: 12px; }
+                  .prompt { fill: #28c840; font-family: 'Courier New', monospace; font-size: 13px; font-weight: bold; }
+        .cmd { fill: #e6edf3; font-family: 'Courier New', monospace; font-size: 13px; }
+                  .key { fill: #79c0ff; font-family: 'Courier New', monospace; font-size: 13px; }
+                  .str { fill: #a8ff78; font-family: 'Courier New', monospace; font-size: 13px; }
+                  .bracket { fill: #e6edf3; font-family: 'Courier New', monospace; font-size: 13px; }
+                  .cursor { fill: #28c840; }
+                  /* GitHub's markdown renderer strips CSS @keyframes animations from
+                     embedded SVGs, which left every line below at its "from{opacity:0}"
+                     state (invisible). Static opacity keeps the terminal readable
+                     everywhere it's embedded. */
+          </style>
+    </defs>
 
-  <!-- Background -->
-  <rect width="700" height="320" rx="10" ry="10" class="bg"/>
-  <rect width="700" height="320" rx="10" ry="10" class="border"/>
+    <!-- Background -->
+    <rect width="700" height="320" rx="10" ry="10" class="bg"/>
+    <rect width="700" height="320" rx="10" ry="10" class="border"/>
 
-  <!-- Title bar -->
-  <rect width="700" height="36" rx="10" ry="10" class="bar"/>
-  <rect y="18" width="700" height="18" class="bar"/>
-  <rect y="35" width="700" height="1" fill="#30363d"/>
+    <!-- Title bar -->
+    <rect width="700" height="36" rx="10" ry="10" class="bar"/>
+    <rect y="18" width="700" height="18" class="bar"/>
+    <rect y="35" width="700" height="1" fill="#30363d"/>
 
-  <!-- Dots -->
-  <circle cx="18" cy="18" r="6" class="dot-r"/>
-  <circle cx="36" cy="18" r="6" class="dot-y"/>
-  <circle cx="54" cy="18" r="6" class="dot-g"/>
+    <!-- Dots -->
+    <circle cx="18" cy="18" r="6" class="dot-r"/>
+    <circle cx="36" cy="18" r="6" class="dot-y"/>
+    <circle cx="54" cy="18" r="6" class="dot-g"/>
 
-  <!-- Bar title -->
-  <text x="350" y="23" text-anchor="middle" class="bar-title">bash — juan@dev: ~</text>
+    <!-- Bar title -->
+    <text x="350" y="23" text-anchor="middle" class="bar-title">bash — juan@dev: ~</text>
 
-  <!-- Terminal lines -->
-  <!-- Line 0: prompt line 1 -->
-  <g class="l0">
-    <text x="20" y="65" class="prompt">┌──(</text>
-    <text x="62" y="65" class="key">juan</text>
-    <text x="93" y="65" class="prompt">㉿</text>
-    <text x="113" y="65" class="key">dev</text>
-    <text x="138" y="65" class="prompt">)-[</text>
-    <text x="162" y="65" class="str">~</text>
-    <text x="172" y="65" class="prompt">]</text>
-  </g>
+    <!-- Terminal lines -->
+    <!-- Line 0: prompt line 1 -->
+    <g class="l0">
+          <text x="20" y="65" class="prompt">┌──(</text>
+          <text x="62" y="65" class="key">juan</text>
+          <text x="93" y="65" class="prompt">㉿</text>
+          <text x="113" y="65" class="key">dev</text>
+          <text x="138" y="65" class="prompt">)-[</text>
+          <text x="162" y="65" class="str">~</text>
+          <text x="172" y="65" class="prompt">]</text>
+    </g>
 
-  <!-- Line 1: prompt + command -->
-  <g class="l1">
-    <text x="20" y="85" class="prompt">└─$</text>
-    <text x="48" y="85" class="cmd"> cat about.json</text>
-  </g>
+    <!-- Line 1: prompt + command -->
+    <g class="l1">
+          <text x="20" y="85" class="prompt">└─$</text>
+          <text x="48" y="85" class="cmd"> cat about.json</text>
+    </g>
 
-  <!-- Line 2: opening brace -->
-  <g class="l2">
-    <text x="20" y="110" class="bracket">{</text>
-  </g>
+    <!-- Line 2: opening brace -->
+    <g class="l2">
+          <text x="20" y="110" class="bracket">{</text>
+    </g>
 
-  <!-- Lines 3-9: JSON fields -->
-  <g class="l3">
-    <text x="36" y="128" class="key">"name"</text>
-    <text x="88" y="128" class="bracket">: </text>
-    <text x="101" y="128" class="str">"Juan Valencia"</text>
-    <text x="208" y="128" class="bracket">,</text>
-  </g>
-  <g class="l4">
-    <text x="36" y="146" class="key">"role"</text>
-    <text x="80" y="146" class="bracket">: </text>
-    <text x="93" y="146" class="str">"Junior Developer"</text>
-    <text x="220" y="146" class="bracket">,</text>
-  </g>
-  <g class="l5">
-    <text x="36" y="164" class="key">"location"</text>
-    <text x="112" y="164" class="bracket">: </text>
-    <text x="125" y="164" class="str">"Yopal, Colombia 🇨🇴"</text>
-    <text x="283" y="164" class="bracket">,</text>
-  </g>
-  <g class="l6">
-    <text x="36" y="182" class="key">"studying"</text>
-    <text x="112" y="182" class="bracket">: </text>
-    <text x="125" y="182" class="str">"Software Analysis &amp; Development"</text>
-    <text x="374" y="182" class="bracket">,</text>
-  </g>
-  <g class="l7">
-    <text x="36" y="200" class="key">"english"</text>
-    <text x="104" y="200" class="bracket">: </text>
-    <text x="117" y="200" class="str">"B1"</text>
-    <text x="148" y="200" class="bracket">,</text>
-  </g>
-  <g class="l8">
-    <text x="36" y="218" class="key">"open_to"</text>
-    <text x="104" y="218" class="bracket">: </text>
-    <text x="117" y="218" class="str">"Junior roles &amp; collaboration"</text>
-    <text x="338" y="218" class="bracket">,</text>
-  </g>
-  <g class="l9">
-    <text x="36" y="236" class="key">"hobbies"</text>
-    <text x="104" y="236" class="bracket">: [</text>
-    <text x="122" y="236" class="str">"learning"</text>
-    <text x="196" y="236" class="bracket">, </text>
-    <text x="209" y="236" class="str">"series"</text>
-    <text x="265" y="236" class="bracket">, </text>
-    <text x="278" y="236" class="str">"gaming"</text>
-    <text x="330" y="236" class="bracket">]</text>
-  </g>
+    <!-- Lines 3-9: JSON fields -->
+    <g class="l3">
+          <text x="36" y="128" class="key">"name"</text>
+          <text x="88" y="128" class="bracket">: </text>
+          <text x="101" y="128" class="str">"Juan Valencia"</text>
+          <text x="208" y="128" class="bracket">,</text>
+    </g>
+    <g class="l4">
+          <text x="36" y="146" class="key">"role"</text>
+          <text x="80" y="146" class="bracket">: </text>
+          <text x="93" y="146" class="str">"Junior Developer"</text>
+          <text x="220" y="146" class="bracket">,</text>
+    </g>
+    <g class="l5">
+          <text x="36" y="164" class="key">"location"</text>
+          <text x="112" y="164" class="bracket">: </text>
+          <text x="125" y="164" class="str">"Yopal, Colombia 🇨🇴"</text>
+          <text x="283" y="164" class="bracket">,</text>
+    </g>
+    <g class="l6">
+          <text x="36" y="182" class="key">"studying"</text>
+          <text x="112" y="182" class="bracket">: </text>
+          <text x="125" y="182" class="str">"Software Analysis &amp; Development"</text>
+          <text x="374" y="182" class="bracket">,</text>
+    </g>
+    <g class="l7">
+          <text x="36" y="200" class="key">"english"</text>
+          <text x="104" y="200" class="bracket">: </text>
+          <text x="117" y="200" class="str">"B1"</text>
+          <text x="148" y="200" class="bracket">,</text>
+    </g>
+    <g class="l8">
+          <text x="36" y="218" class="key">"open_to"</text>
+          <text x="104" y="218" class="bracket">: </text>
+          <text x="117" y="218" class="str">"Junior roles &amp; collaboration"</text>
+          <text x="338" y="218" class="bracket">,</text>
+    </g>
+    <g class="l9">
+          <text x="36" y="236" class="key">"hobbies"</text>
+          <text x="104" y="236" class="bracket">: [</text>
+          <text x="122" y="236" class="str">"learning"</text>
+          <text x="196" y="236" class="bracket">, </text>
+          <text x="209" y="236" class="str">"series"</text>
+          <text x="265" y="236" class="bracket">, </text>
+          <text x="278" y="236" class="str">"gaming"</text>
+          <text x="330" y="236" class="bracket">]</text>
+    </g>
 
-  <!-- closing brace -->
-  <g class="l10">
-    <text x="20" y="254" class="bracket">}</text>
-  </g>
+    <!-- closing brace -->
+    <g class="l10">
+          <text x="20" y="254" class="bracket">}</text>
+    </g>
 
-  <!-- second prompt -->
-  <g class="l11">
-    <text x="20" y="278" class="prompt">┌──(</text>
-    <text x="62" y="278" class="key">juan</text>
-    <text x="93" y="278" class="prompt">㉿</text>
-    <text x="113" y="278" class="key">dev</text>
-    <text x="138" y="278" class="prompt">)-[</text>
-    <text x="162" y="278" class="str">~</text>
-    <text x="172" y="278" class="prompt">]</text>
-  </g>
-  <g class="l12">
-    <text x="20" y="298" class="prompt">└─$</text>
-    <!-- blinking cursor -->
-    <rect x="48" y="285" width="8" height="14" class="cursor blink"/>
-  </g>
+    <!-- second prompt -->
+    <g class="l11">
+          <text x="20" y="278" class="prompt">┌──(</text>
+          <text x="62" y="278" class="key">juan</text>
+          <text x="93" y="278" class="prompt">㉿</text>
+          <text x="113" y="278" class="key">dev</text>
+          <text x="138" y="278" class="prompt">)-[</text>
+          <text x="162" y="278" class="str">~</text>
+          <text x="172" y="278" class="prompt">]</text>
+    </g>
+    <g class="l12">
+          <text x="20" y="298" class="prompt">└─$</text>
+          <!-- blinking cursor -->
+          <rect x="48" y="285" width="8" height="14" class="cursor blink"/>
+    </g>
 </svg>
