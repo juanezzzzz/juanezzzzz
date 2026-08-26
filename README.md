@@ -123,24 +123,13 @@ Interested in web development, clean code, and solving problems end-to-end.
 
 <img
   height="165"
-  src="https://github-readme-stats-weh4.vercel.app/api?username=juanezzzzz&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&cache_seconds=1800"
+  src="https://github-readme-stats-weh4.vercel.app/api?username=juanezzzzz&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&cache_seconds=1800&disable_animations=true"
   alt="Juan's GitHub Stats"
 />
 <img
   height="165"
-  src="https://github-readme-stats-weh4.vercel.app/api/top-langs/?username=juanezzzzz&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&cache_seconds=1800"
+  src="https://github-readme-stats-weh4.vercel.app/api/top-langs/?username=juanezzzzz&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&cache_seconds=1800&disable_animations=true"
   alt="Top Languages"
-/>
-
-</div>
-
-<!-- ============ ACTIVITY GRAPH ============ -->
-<div align="center">
-
-<img
-  width="100%"
-  src="https://github-readme-activity-graph.vercel.app/graph?username=juanezzzzz&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=378ADD&line=378ADD&point=ffffff&area=true"
-  alt="Activity Graph"
 />
 
 </div>
